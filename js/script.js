@@ -1,4 +1,8 @@
-<!-- Vertically centered scrollable modal -->
-$('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')
-  })
+let me = document.querySelector('.me')
+
+element.addEventListener('animationend', () => {
+    // do something
+  });
+
+
+  
