@@ -1,6 +1,7 @@
 let unitsContainer = document.getElementById("units");
 
 let units = [
+  // UNIT 1
   {
     url: "https://prycedom.github.io/portfolio_update_v1/",
     img: "img/UNIT 1 img.png",
@@ -8,7 +9,7 @@ let units = [
     title: "My Personal Profile Page",
     description: "A simple site demonstrating HTML and CSS."
   },
-
+  // UNIT 2
   {
     url: "https://prycedom.github.io/responsive_layout_v3/",
     img: "img/UNIT 2 img.png",
@@ -16,6 +17,7 @@ let units = [
     title: "My Personal Profile Page",
     description: "A simple site demonstrating HTML and CSS."
   },
+  // UNIT 3
   {
     url: "https://prycedom.github.io/portfolio_update_v1/",
     img: "img/UNIT 1 img.png",
@@ -59,7 +61,7 @@ let units = [
     description: "A simple site demonstrating HTML and CSS."
   }
 ];
-
+// Units/Cards
 units.forEach(unit => {
   let unitHtml = `<a href="${unit.url}" target="_blank" class="card col-sm-6 col-lg-3 border p-3 mb-2 bg-light text-dark"> 
                   <img src="${unit.img}" class="card-img-top" alt="${unit.alt}">
