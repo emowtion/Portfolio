@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Links -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="js/script.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     
     <title>Kasey Pryce</title>
@@ -20,10 +19,10 @@
     <div class="jumbotron jumbotron-fluid text-center">
         <div class="row align-items-center justify-content-start mx-5">
             <div class="mainPhoto col-lg">
-              <img class="me animate__animated animate__flip"   src="img/rsz_1me.png" alt="photo of me on the beach">
+              <img class="me" id="myPhoto"   src="img/rsz_1me.png" alt="photo of me on the beach">
             </div>
             <div class="intro col-lg">
-              <h2 class="display-3">Welcome!</h2>
+              <h2 class="display-3" id="welcome">Welcome!</h2>
               <!-- <p class="my-2">Welcome!</p> -->
               <p>This is a page demonstrating my developer skills.</p>
             </div>
@@ -37,7 +36,7 @@
     </div>
      <!-- Projects -->
      
-     <div class="row mx-3 mb-3">
+     <div id="units" class="row mx-3 mb-3">
         <!-- UNIT 1 -->
         <a href="https://prycedom.github.io/portfolio_update_v1/" id="unit1Resume" class="card col-sm-6 col-lg-3 border p-3 mb-2 bg-light text-dark">
           <img src="img/UNIT 1 img.png" class="card-img-top" alt="Resume image" class="rounded">
@@ -120,6 +119,7 @@
     <p>Icons made by <a href="https://www.flaticon.com/authors/fjstudio" title="fjstudio">fjstudio</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
