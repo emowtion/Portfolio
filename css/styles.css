@@ -1,9 +1,10 @@
 
 .me {
-    border-radius: 50%;
-  
+    border-radius: 50%; 
 }
 
+
+/* Laptop Breakpoint */
 @media (min-width: 768px) {
     .row {
         flex: 50%;
