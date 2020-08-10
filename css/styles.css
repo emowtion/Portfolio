@@ -3,3 +3,9 @@
     border-radius: 50%;
   
 }
+
+@media (min-width: 768px) {
+    .row {
+        flex: 50%;
+    }
+}
