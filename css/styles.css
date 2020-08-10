@@ -2,7 +2,10 @@
 .me {
     border-radius: 50%; 
 }
-
+.credit {
+    display: inline-block;
+    font-size: .5rem;
+}
 
 /* Laptop Breakpoint */
 @media (min-width: 768px) {
