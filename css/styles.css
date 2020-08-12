@@ -10,12 +10,13 @@
 /* Laptop Breakpoint */
 @media (max-width: 320px) {
     .me {
-        text-align: left;
-        height: 160px;
-        width: 200px;
+        width: 100%;
     }
-    H2 {
-        font: 60px;
+    welcome {
+      font-size: 60px;
+    }
+    .link {
+        font-size: .75rem;
     }
 }
 
