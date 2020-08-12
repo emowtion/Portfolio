@@ -8,6 +8,17 @@
 }
 
 /* Laptop Breakpoint */
+@media (max-width: 320px) {
+    .me {
+        text-align: left;
+        height: 160px;
+        width: 200px;
+    }
+    H2 {
+        font: 60px;
+    }
+}
+
 @media (min-width: 768px) {
     .row {
         flex: 50%;
